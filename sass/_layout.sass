@@ -1,0 +1,205 @@
+/*************************************/
+/*=========     GLOBAL     =========*/
+/***********************************/
+%contenedores
+	padding: 100px 0
+
+.text-muted
+	color: #fff
+
+.section-title
+	font: 700 40px $third-font
+	margin: 0
+	color: #FFF
+	text-transform: uppercase
+	+ p
+		font: 400 italic $fourth-font
+		margin: 10px 0 75px
+	&.white
+		color: #fff
+		+ p
+			color: #fff
+
+/*************************************/
+/*=========     HEADER     =========*/
+/***********************************/
+.navbar-default
+	background-color: #fff
+	border: none
+	height: 100px
+	border-bottom: 10px solid #ea212b
+
+
+	.navbar-brand
+		color: $main-color
+		font-family: $second-font
+		&:hover,
+		&:active,
+		&:focus
+			color: $main-color !important
+
+	.navbar-toggle
+		border: none
+		background-color: $main-color
+		color: #fff
+		font-size: 18px
+		margin: 25px
+		&:hover,
+		&:active,
+		&:focus
+			background-color: $main-color !important
+
+	.navbar-nav
+		> li
+			> a
+				font-family: $third-font
+				color: #fff
+				text-transform: uppercase
+				border-bottom: 1px dotted #fff
+				background-color: $third-color
+				&:hover,
+				&:active,
+				&:focus
+					color: $main-color 
+					background-color: #f7e073
+		> .active
+			> a
+				color: #fed136
+				background-color: transparent !important
+.logo
+	margin-top: -15px
+#nav-links
+	border-color: #ea212b
+
+
+
+/*************************************/
+/*=========     BANNER     =========*/
+/***********************************/
+
+#banner
+	background: url(../images/burger.jpg) center center/cover
+	background-repeat: no-repeat
+.intro-text
+	padding: 200px 0 70px
+	color: #fff
+
+	h2
+		font: 400 italic 36px/36px $fourth-font
+		margin-bottom: 25px
+	
+	h1
+		font: 700 50px/50px $third-font
+		text-transform: uppercase
+		margin-bottom: 25px
+
+	a
+		background-color: $main-color
+		color: #fff
+		text-transform: uppercase
+		font: 400 18px $third-font
+		padding: 20px 40px
+		+b-ra(5px)
+		&:hover
+			color: #fff
+	
+
+
+/*************************************/
+/*=========     SERVICES    =========*/
+/***********************************/
+#services
+	@extend %contenedores
+	padding: 75px
+	background-color: $third-color
+	text-align: center
+	.glyphicon
+		width: 115px
+		height: 115px
+		background-color: $main-color
+		+b-ra(50%)
+		line-height: 115px
+		color: #fff !important
+		font-size: 50px !important
+
+.item-subtitle
+	font-family: $third-font
+	font-size: 20px
+	+ p
+		line-height: 25px
+		margin-bottom: 30px
+.servicios-caja
+	background-color: rgba(255,255,255,0.8)
+	+b-ra(3%)
+	padding: 10px
+
+
+/*************************************/
+/*=========    PORTFOLIO    =========*/
+/***********************************/
+
+
+
+/*************************************/
+/*=========     WORK TEAM    =========*/
+/***********************************/
+#team
+	background-color: #f1f1f1
+	padding: 100px 0
+	@extend %contenedores
+.team-leader
+	text-align: center
+	margin-bottom: 50px
+	img
+		margin: 0 auto 
+		border: 7px solid white
+.team-text
+	h4 
+		font: 700 26px $third-font
+		color: #333
+		margin-bottom: 0
+	p
+		margin-top: 0
+
+.team-info
+	margin: 60px 0 20px
+	font-size: 16px
+
+
+/*************************************/
+/*=========     ABOUT US    =========*/
+/***********************************/
+
+#about
+	background: url(../images/burger2.jpg) right center/cover no-repeat
+	padding: 30px 0 70px
+	min-height: 300px
+	p 
+		font-size: 14px
+		padding-top: 20px
+.about-icons
+	span
+		display: inline-block
+		width: 60px
+		height: 60px
+		background-color: $main-color
+		+b-ra(50%)
+		line-height: 60px
+		color: #fff
+		font-size: 26px
+		margin-top: -20px
+		margin-right: 20px
+		text-align: center
+		&:hover,
+		&:active,
+		&:focus
+			background-color: $third-color
+
+/*************************************/
+/*=========    CONTACT US    =========*/
+/***********************************/
+
+
+/*************************************/
+/*=========     FOOTER     =========*/
+/***********************************/
